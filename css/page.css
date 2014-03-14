@@ -25,6 +25,7 @@
 
     .page__body {
         display: table-row;
+    	background: purple;
     }
 
         .page__body__container {
