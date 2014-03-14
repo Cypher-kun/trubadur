@@ -1,6 +1,4 @@
 html {
-    width: 768px;
-    height: 1024px;
     background: #e3e3e3 url(../images/background.png);
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 /*
@@ -10,10 +8,6 @@ html {
     font: 12px / 18px Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
 */
 }
-    body {
-        width: 768px;
-        height: 1024px;
-    }
 
 ::-moz-selection {
     background: #b3d4fc;

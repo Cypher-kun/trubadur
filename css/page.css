@@ -1,18 +1,46 @@
 .page {
-
+    width: 768px;
+    height: 1024px;
+    display: table;
 }
-    .page__header {
-
+    .page__tabs {
+        display: table-row;
     }
+        .page__tabs__container {
+            display: table-cell;
+            height: 50px;
+            background: red;
+        }
+
 
     .page__nav {
-        margin: 20px 0 0;
+        display: table-row;
     }
+        .page__nav__container {
+            display: table-cell;
+            height: 50px;
+            background: green;
+        }
+
 
     .page__body {
-        margin: 20px 0 0;
+        display: table-row;
     }
 
+        .page__body__container {
+            display: table-cell;
+        }
+            .page__body__container__scrollable {
+                height: 100%;
+                overflow-y: auto;
+            }
+
+            
     .page__footer {
-        margin: 20px 0 0;
+        display: table-row;
     }
+        .page__footer__container {
+            display: table-cell;
+            height: 55px;
+            background: blue;
+        }
