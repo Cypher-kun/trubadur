@@ -1,12 +1,6 @@
 html {
     background: #e3e3e3 url(../images/background.png);
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-/*
-    font: 12px / 18px "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
-    font: 12px / 18px Tahoma, Verdana, Segoe, sans-serif;
-    font: 12px / 18px Verdana, Geneva, sans-serif;
-    font: 12px / 18px Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
-*/
+    font-family: "Pragmatica", sans-serif;
 }
 
 ::-moz-selection {
@@ -18,3 +12,4 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
+

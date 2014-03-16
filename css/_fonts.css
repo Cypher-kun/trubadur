@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/pragmatica.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pragmatica';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/pragmatica_bold.woff) format('woff');
+}
+@font-face {
+    font-family: 'Pragmatica';
+    font-style: italic;
+    font-weight: 400;
+    src: url(../fonts/pragmatica_italic.woff) format('woff');
+}
