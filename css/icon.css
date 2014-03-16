@@ -1,17 +1,46 @@
 .icon {
     display: inline-block;
     vertical-align: top;
-    background: url(../images/sprite.png) no-repeat;
+}
+
+.icon_list {
+    width: 18px;
+    height: 16px;
+    background: url(../images/icon_list.png) no-repeat;
+}
+
+.icon_note {
+    width: 17px;
+    height: 16px;
+    background: url(../images/icon_note.png) no-repeat;
+}
+
+.icon_waiter {
+    width: 17px;
+    height: 16px;
+    background: url(../images/icon_waiter.png) no-repeat;
+}
+
+.icon_man {
+    width: 17px;
+    height: 16px;
+    background: url(../images/icon_man.png) no-repeat;
+}
+
+.icon_emblem {
+    width: 15px;
+    height: 14px;
+    background: url(../images/icon_emblem.png) no-repeat;
+}
+
+.icon_arrow {
+    width: 15px;
+    height: 14px;
+    background: url(../images/icon_arrow.png) no-repeat;
 }
 
 .icon_bitcoin {
-    width: 33px;
-    height: 33px;
-    background-position: 0 -72px;
-}
-
-.icon_house {
-    width: 13px;
-    height: 10px;
-    background-position: -33px -72px;
+    width: 15px;
+    height: 15px;
+    background: url(../images/icon_house.png) no-repeat;
 }
