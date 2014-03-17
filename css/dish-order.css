@@ -1,0 +1,113 @@
+.dish-order {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,.25);
+    height: 100px;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+    color: #000;
+    position: relative;
+}
+
+    .dish-order__del {
+        background: #2d2b2c linear-gradient(#3d3d3e, #231f20);
+        width: 15px;
+        height: 15px;
+        line-height: 13px;
+        box-shadow: 0 0 5px rgba(0,0,0,.5);
+        border-radius: 7px;
+        position: absolute;
+        top: 42px;
+        left: -45px;
+        text-align: center;
+    }
+
+        .dish-order__del__icon {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 0;
+        }
+
+    .dish-order__image {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+        .dish-order__image__file {
+            width: 225px;
+            height: 100px;
+            border-radius: 10px;
+        }
+
+    .dish-order__label {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 15px;
+        margin-left: 7px;
+    }
+
+        .dish-order__label__title {
+            font-size: 19px;
+            font-style: normal;
+        }
+
+        .dish-order__label__text {
+            margin-top: 6px;
+        }
+
+        .dish-order__label__info {
+            margin-top: 6px;
+        }
+
+    .dish-order__counter {
+        font-size: 16px;
+        font-weight: bold;
+        font-style: normal;
+        position: absolute;
+        top: 39px;
+        right: 30px;
+    }
+
+        .dish-order__counter__decrease {
+            width: 26px;
+            height: 26px;
+            line-height: 23px;
+            border-radius: 13px;
+            background: #56a6db linear-gradient(#79c4ed, #4699d3);
+            box-shadow: 0 0 5px rgba(0,0,0,.5);
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            .dish-order__counter__decrease__icon {
+                display: inline-block;
+                vertical-align: middle;
+                line-height: 0;
+            }
+
+        .dish-order__counter__value {
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 12px;
+            margin-right: 12px;
+        }
+
+        .dish-order__counter__increase {
+            width: 26px;
+            height: 26px;
+            line-height: 23px;
+            border-radius: 13px;
+            background: #56a6db linear-gradient(#79c4ed, #4699d3);
+            box-shadow: 0 0 5px rgba(0,0,0,.5);
+            text-align: center;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            .dish-order__counter__increase__icon {
+                display: inline-block;
+                vertical-align: middle;
+                line-height: 0;
+            }

@@ -56,3 +56,21 @@
     height: 14px;
     background: url(../images/icon_cross_small.png) no-repeat;
 }
+
+.icon_x {
+    width: 6px;
+    height: 6px;
+    background: url(../images/icon_x.png) no-repeat;
+}
+
+.icon_plus {
+    width: 11px;
+    height: 11px;
+    background: url(../images/icon_plus.png) no-repeat;
+}
+
+.icon_minus {
+    width: 8px;
+    height: 3px;
+    background: url(../images/icon_minus.png) no-repeat;
+}
