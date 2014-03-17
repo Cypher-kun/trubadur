@@ -3,62 +3,57 @@
     height: 784px;
     background: #fff;
     border-radius: 15px;
-    box-shadow: 0 0 5px rgba(0,0,0,.25);
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
     margin: 0 auto;
     font-size: 18px;
     line-height: 22px;
     font-style: italic;
+    color: #000;
     position: relative;
 }
+    .dish__image {
 
-    .dish__item {
-        margin-top: 60px;
     }
 
-        .dish__item__image {
-
+        .dish__image__file {
+            border-radius: 15px;
+            width: 618px;
+            height: 560px;
         }
 
-            .dish__item__image__file {
-                border-radius: 15px;
-                width: 618px;
-                height: 560px;
-            }
+    .dish__label {
+        margin-top: 31px;
+        text-align: center;
+    }
 
-        .dish__item__label {
-            margin-top: 31px;
-            text-align: center;
+        .dish__label__title {
+            font-size: 22px;
+            font-style: normal;
         }
 
-            .dish__item__label__title {
-                font-size: 22px;
-                font-style: normal;
-            }
-
-            .dish__item__label__text {
-                margin-top: 20px;
-            }
-
-            .dish__item__label__info {
-                margin-top: 20px;
-            }
-
-        .dish__item__add {
-            width: 76px;
-            height: 76px;
-            line-height: 76px;
-            border-radius: 38px;
-            background: #62b1e2;
-            box-shadow: 0 0 5px rgba(0,0,0,.5);
-            position: absolute;
-            bottom: -7px;
-            right: -7px;
-            text-align: center;
-
+        .dish__label__text {
+            margin-top: 20px;
         }
 
-            .dish__item__add__icon {
-                display: inline-block;
-                line-height: 0;
-                vertical-align: middle;
-            }
+        .dish__label__info {
+            margin-top: 20px;
+        }
+
+    .dish__add {
+        width: 76px;
+        height: 76px;
+        line-height: 76px;
+        border-radius: 38px;
+        background: #62b1e2;
+        box-shadow: 0 0 5px rgba(0,0,0,.5);
+        position: absolute;
+        bottom: -7px;
+        right: -7px;
+        text-align: center;
+    }
+
+        .dish__add__icon {
+            display: inline-block;
+            line-height: 0;
+            vertical-align: middle;
+        }

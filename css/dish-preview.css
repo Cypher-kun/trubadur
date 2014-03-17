@@ -1,0 +1,66 @@
+.dish-preview {
+    display: block;
+    width: 294px;
+    height: 234px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+    color: #000;
+    position: relative;;
+}
+
+    .dish-preview__image {
+
+    }
+
+        .dish-preview__image__file {
+            width: 294px;
+            height: 234px;
+            border-radius: 15px;
+        }
+
+    .dish-preview__label {
+        background: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 24px 20px 30px;
+        border-radius: 0 0 15px 15px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+        .dish-preview__label__title {
+            font-size: 19px;
+            font-style: normal;
+        }
+
+        .dish-preview__label__text {
+            margin-top: 7px;
+        }
+
+        .dish-preview__label__info {
+            margin-top: 5px;
+        }
+
+    .dish-preview__add {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        border-radius: 18px;
+        background: #62b1e2;
+        box-shadow: 0 0 5px rgba(0,0,0,.5);
+        position: absolute;
+        bottom: -7px;
+        right: -7px;
+        text-align: center;
+    }
+
+        .dish-preview__add__icon {
+            display: inline-block;
+            line-height: 0;
+            vertical-align: middle;
+        }

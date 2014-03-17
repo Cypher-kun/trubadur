@@ -1,0 +1,9 @@
+.tiles {
+    margin: -15px;
+}
+
+    .tiles__item {
+        display: inline-block;
+        vertical-align: top;
+        margin: 15px;
+    }
