@@ -22,12 +22,6 @@
     text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(255, 255, 255, 0.35);
 }
 
-.button_blue {
-    background: #204a7f;
-    background: -webkit-linear-gradient(#285d92, #1b4074);
-    background:         linear-gradient(#285d92, #1b4074);
-}
-
 .button_darkblue {
     background: #214d81;
     background: -webkit-linear-gradient(#295d92, #1b4074);
@@ -44,5 +38,21 @@
     background: #2d2a2b;
     background: -webkit-linear-gradient(#3e3d3f, #231f20);
     background:         linear-gradient(#3e3d3f, #231f20);
+}
+
+.button:active {
+    background: #407ca4;
+}
+
+.button_darkblue:active {
+    background: #183960;
+}
+
+.button_red:active {
+    background: #92192b;
+}
+
+.button_black:active {
+    background: #201f1f;
 }
 

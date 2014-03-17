@@ -9,7 +9,6 @@
         .page__tabs__container {
             display: table-cell;
             height: 50px;
-            background: red;
         }
 
 
@@ -18,8 +17,7 @@
     }
         .page__nav__container {
             display: table-cell;
-            height: 50px;
-            background: green;
+            height: 60px;
         }
 
 
@@ -42,6 +40,5 @@
     }
         .page__footer__container {
             display: table-cell;
-            height: 55px;
-            background: blue;
+            height: 60px;
         }
