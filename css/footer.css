@@ -1,9 +1,52 @@
 .footer {
-    height: 100px;
-    position: relative;
+    height: 60px;
+    background: #2c2a2b;
+    background: -webkit-linear-gradient(#3e3d3f, #231f20);
+    background:         linear-gradient(#3e3d3f, #231f20);
+    font-size: 12px;
+    line-height: 14px;
+    color: #fff;
+    display: table;
+    width: 100%;
+    table-layout: fixed;
 }
-    .footer__copyright {
-        position: absolute;
-        left: 0;
-        top: 10px;
+
+
+    .footer__item {
+        display: table-cell;
+        text-align: center;
+        position: relative;
     }
+
+        .footer__item__link {
+            display: block;
+            height: 60px;
+            line-height: 60px;
+        }
+
+            .footer__item__link__icon {
+                display: inline-block;
+                vertical-align: middle;
+                line-height: 0;
+            }
+
+            .footer__item__link__label {
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 11px;
+                line-height: 14px;
+            }
+
+        .footer__item__separator {
+            width: 2px;
+            height: 30px;
+            background: #5e5c5d;
+            box-shadow: 0 0 1px 0 rgba(255, 255, 255, 0.05);
+            position: absolute;
+            top: 15px;
+            right: -1px;
+        }
+
+        .footer__item:last-child .footer__item__separator {
+            display: none;
+        }
