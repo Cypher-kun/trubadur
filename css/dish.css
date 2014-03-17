@@ -8,6 +8,7 @@
     font-size: 18px;
     line-height: 22px;
     font-style: italic;
+    position: relative;
 }
 
     .dish__item {
@@ -35,13 +36,29 @@
             }
 
             .dish__item__label__text {
-                margin-top: 21px;
+                margin-top: 20px;
             }
 
             .dish__item__label__info {
-                margin-top: 21px;
+                margin-top: 20px;
             }
 
         .dish__item__add {
+            width: 76px;
+            height: 76px;
+            line-height: 76px;
+            border-radius: 38px;
+            background: #62b1e2;
+            box-shadow: 0 0 5px rgba(0,0,0,.5);
+            position: absolute;
+            bottom: -7px;
+            right: -7px;
+            text-align: center;
 
         }
+
+            .dish__item__add__icon {
+                display: inline-block;
+                line-height: 0;
+                vertical-align: middle;
+            }

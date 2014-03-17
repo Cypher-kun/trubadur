@@ -44,3 +44,9 @@
     height: 15px;
     background: url(../images/icon_house.png) no-repeat;
 }
+
+.icon_cross {
+    width: 29px;
+    height: 29px;
+    background: url(../images/icon_cross.png) no-repeat;
+}
