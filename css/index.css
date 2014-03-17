@@ -1,0 +1,31 @@
+.index {
+    width: 384px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 114px;
+}
+
+    .index__link {
+        font-size: 12px;
+        line-height: 14px;
+        text-decoration: underline;
+        color: #fff;
+        position: absolute;
+        top: 16px;
+        right: -159px;
+    }
+
+    .index__logo {
+        width: 359px;
+        height: 412px;
+        background: url(../images/logo.png);
+        margin: 0 auto;
+    }
+
+    .index__controls {
+        margin-top: 54px;
+    }
+
+        .index__controls__item {
+            margin-top: 30px;
+        }
