@@ -6,8 +6,29 @@
     .breadcrumbs__item {
         display: inline-block;
         vertical-align: top;
+        position: relative;
+        margin-left: 58px;
     }
 
         .breadcrumbs__item__link {
             display: block;
         }
+
+        .breadcrumbs__item__separator {
+            width: 6px;
+            height: 30px;
+            background: url(../images/breadcrumbs_separator.png);
+            position: absolute;
+            top: -8px;
+            right: -36px;
+        }
+
+
+
+    .breadcrumbs__item:first-child {
+        margin-left: 0;
+    }
+
+    .breadcrumbs__item:last-child .breadcrumbs__item__separator {
+        display: none;
+    }

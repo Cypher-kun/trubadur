@@ -1,0 +1,47 @@
+.dish {
+    width: 618px;
+    height: 784px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 5px rgba(0,0,0,.25);
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 22px;
+    font-style: italic;
+}
+
+    .dish__item {
+        margin-top: 60px;
+    }
+
+        .dish__item__image {
+
+        }
+
+            .dish__item__image__file {
+                border-radius: 15px;
+                width: 618px;
+                height: 560px;
+            }
+
+        .dish__item__label {
+            margin-top: 31px;
+            text-align: center;
+        }
+
+            .dish__item__label__title {
+                font-size: 22px;
+                font-style: normal;
+            }
+
+            .dish__item__label__text {
+                margin-top: 21px;
+            }
+
+            .dish__item__label__info {
+                margin-top: 21px;
+            }
+
+        .dish__item__add {
+
+        }
