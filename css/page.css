@@ -2,6 +2,7 @@
     width: 768px;
     height: 1024px;
     display: table;
+    background: url(../images/background.jpg);
 }
     .page__tabs {
         display: table-row;
@@ -41,3 +42,8 @@
             display: table-cell;
             height: 60px;
         }
+
+
+.page_white {
+    background: url(../images/background_white.jpg);
+}
