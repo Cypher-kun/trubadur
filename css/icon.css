@@ -46,14 +46,14 @@
 }
 
 .icon_cross {
-    width: 29px;
-    height: 29px;
+    width: 35px;
+    height: 35px;
     background: url(../images/icon_cross.png) no-repeat;
 }
 
 .icon_cross_small {
-    width: 14px;
-    height: 14px;
+    width: 24px;
+    height: 24px;
     background: url(../images/icon_cross_small.png) no-repeat;
 }
 
@@ -64,13 +64,13 @@
 }
 
 .icon_plus {
-    width: 11px;
-    height: 11px;
+    width: 14px;
+    height: 14px;
     background: url(../images/icon_plus.png) no-repeat;
 }
 
 .icon_minus {
-    width: 8px;
+    width: 7px;
     height: 3px;
     background: url(../images/icon_minus.png) no-repeat;
 }

@@ -2,12 +2,14 @@
     font-size: 18px;
     line-height: 20px;
     color: #fff;
+
 }
     .breadcrumbs__item {
         display: inline-block;
         vertical-align: top;
         position: relative;
         margin-left: 58px;
+        text-decoration: underline;
     }
 
         .breadcrumbs__item__link {
