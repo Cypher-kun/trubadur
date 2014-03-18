@@ -1,0 +1,29 @@
+.table-order {
+
+}
+
+    .table-order__body {
+
+    }
+
+        .table-order__body__row {
+
+        }
+
+            .table-order__body__row__cell {
+                height: 46px;
+                padding: 22px 10px 22px 29px;
+                vertical-align: middle;
+            }
+
+            .table-order__body__row__cell_time {
+                width: 54px;
+            }
+
+            .table-order__body__row__cell_table {
+                width: 78px;
+            }
+
+            .table-order__body__row__cell_label {
+                width: 394px;
+            }

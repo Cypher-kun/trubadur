@@ -15,6 +15,12 @@
     background: url(../images/icon_note.png) no-repeat;
 }
 
+.icon_note_small {
+    width: 15px;
+    height: 15px;
+    background: url(../images/icon_note_small.png) no-repeat;
+}
+
 .icon_waiter {
     width: 17px;
     height: 16px;
@@ -25,6 +31,12 @@
     width: 17px;
     height: 16px;
     background: url(../images/icon_man.png) no-repeat;
+}
+
+.icon_man_small {
+    width: 14px;
+    height: 16px;
+    background: url(../images/icon_man_small.png) no-repeat;
 }
 
 .icon_emblem {

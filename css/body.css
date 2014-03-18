@@ -11,6 +11,10 @@
     width: 618px;
 }
 
+.body_wider {
+    width: 647px;
+}
+
 .body_full {
     width: 100%;
 }
