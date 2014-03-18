@@ -1,0 +1,55 @@
+.song-order {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    height: 36px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 2px rgba(0,0,0,1);
+    position: relative;
+    padding: 37px 15px 17px 31px;
+
+}
+
+    .song-order__del {
+        background: #2d2b2c linear-gradient(#3d3d3e, #231f20);
+        width: 15px;
+        height: 15px;
+        line-height: 15px;
+        box-shadow: 0 0 10px 1px rgba(0,0,0,1);
+        border-radius: 7px;
+        position: absolute;
+        top: 38px;
+        left: -46px;
+        text-align: center;
+    }
+
+        .song-order__del__icon {
+            display: inline-block;
+            vertical-align: middle;
+            line-height: 0;
+        }
+
+    .song-order__title {
+
+    }
+
+    .song-order__play {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 25px;
+        background: #c5213b linear-gradient(#e51f43, #b52237);
+        box-shadow: 0 0 5px 1px rgba(0,0,0,1);
+        display: inline-block;
+        vertical-align: top;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+
+        .song-order__play__icon {
+            position: absolute;
+            top: 12px;
+            left: 16px;
+        }

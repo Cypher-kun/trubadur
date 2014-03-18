@@ -72,5 +72,10 @@
 .icon_minus {
     width: 7px;
     height: 3px;
-    background: url(../images/icon_minus.png) no-repeat;
+}
+
+.icon_play {
+    width: 26px;
+    height: 26px;
+    background: url(../images/icon_play.png) no-repeat;
 }
