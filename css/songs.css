@@ -1,0 +1,52 @@
+.songs {
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+}
+
+    .songs__body {
+
+    }
+
+        .songs__body__row {
+
+        }
+
+            .songs__body__row__cell {
+                padding: 22px 15px 17px 31px;
+                border-bottom: 2px solid #b52237;
+                height: 21px;
+                text-align: center;
+            }
+
+                .songs__body__row__cell__add {
+                    width: 30px;
+                    height: 30px;
+                    line-height: 30px;
+                    border-radius: 15px;
+                    background: #c5213b linear-gradient(#e51f43, #b52237);
+                    box-shadow: 0 0 5px 1px rgba(0,0,0,1);
+                    display: inline-block;
+                    vertical-align: middle;
+                }
+
+                    .songs__body__row__cell__add__icon {
+                        display: inline-block;
+                        vertical-align: middle;
+                        line-height: 0;
+                    }
+
+            .songs__body__row__cell_author {
+                width: 214px;
+                border-right: 2px solid #b52237;
+            }
+
+            .songs__body__row__cell_title {
+                width: 321px;
+            }
+
+            .songs__body__row__cell_plus {
+                width: 140px;
+                padding: 0;
+            }
+

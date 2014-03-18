@@ -1,0 +1,35 @@
+.song-search {
+    height: 60px;
+    background: #be2139 linear-gradient(#e21f42, #b32236);
+    font-size: 18px;
+    line-height: 60px;
+    color: #fff;
+}
+
+    .song-search__list {
+
+    }
+
+        .song-search__list__item {
+            display: inline-block;
+            vertical-align: top;
+            text-align: center;
+            position: relative;
+        }
+
+            .song-search__list__item__link {
+
+            }
+
+            .song-search__list__item__separator {
+                width: 2px;
+                height: 30px;
+                background: #e097a2;
+                position: absolute;
+                top: 15px;
+                right: -1px;
+            }
+
+        .song-search__list__item_field {
+            padding: 15px 0 15px;
+        }

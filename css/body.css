@@ -10,3 +10,7 @@
 .body_wide {
     width: 618px;
 }
+
+.body_full {
+    width: 100%;
+}

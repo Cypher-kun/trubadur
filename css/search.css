@@ -1,0 +1,30 @@
+.search {
+    position: relative;
+}
+
+    .search__field {
+        outline: none;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: top;
+        width: 447px;
+        height: 30px;
+        padding: 0 29px;
+        border-radius: 5px;
+        font-size: 18px;
+        color: #3b3c3c;
+        box-shadow: 1px 1px 1px 0 rgba(0, 0, 0, 0.45) inset, 1px 1px 1px 0 rgba(255, 255, 255, 0.35);
+    }
+
+    .search__submit {
+        background: url(../images/icon_magnifier.png) no-repeat;
+        width: 15px;
+        height: 14px;
+        position: absolute;
+        top: 8px;
+        right: 59px;
+        border: none;
+        outline: none;
+    }
