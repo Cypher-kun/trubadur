@@ -53,3 +53,7 @@
             top: 12px;
             left: 16px;
         }
+
+    .song-order__play:active {
+        background: #da2040 linear-gradient(#e51f43, #b52237);
+    }
