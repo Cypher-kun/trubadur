@@ -112,3 +112,11 @@
                 vertical-align: middle;
                 line-height: 0;
             }
+
+    .dish-order__counter__decrease:active {
+        background: #6db9e7 linear-gradient(#7ec8f0, #699d3);
+    }
+
+    .dish-order__counter__increase:active {
+        background: #6db9e7 linear-gradient(#7ec8f0, #699d3);
+    }

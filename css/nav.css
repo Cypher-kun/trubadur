@@ -45,6 +45,43 @@
             vertical-align: top;
         }
 
+    .nav__left__logo:active {
+        background: #75c0eb linear-gradient(#7ec8f0, #4699d3);
+    }
+
+    .nav_red .nav__left__logo:active {
+        background: #d6203f linear-gradient(#e51f43, #b52237);
+    }
+
+    .nav_darkblue .nav__left__logo {
+        background: #26588d linear-gradient(#2a6095, #1b4074);
+    }
+
+    .nav__left__breadcrumbs:active {
+        background: #75c0eb linear-gradient(#7ec8f0, #4699d3);
+    }
+
+    .nav__right__menu:active {
+        background: #75c0eb linear-gradient(#7ec8f0, #4699d3);
+    }
+
+    .nav_red .nav__left__breadcrumbs:active {
+        background: #d6203f linear-gradient(#e51f43, #b52237);
+
+    }
+
+    .nav_red .nav__right__menu:active {
+        background: #d6203f linear-gradient(#e51f43, #b52237);
+    }
+
+    .nav_darkblue .nav__left__breadcrumbs:active {
+        background: #26588d linear-gradient(#2a6095, #1b4074);
+
+    }
+
+    .nav_darkblue .nav__right__menu:active {
+        background: #26588d linear-gradient(#2a6095, #1b4074);
+    }
 
 .nav_darkblue {
     background: #214d81;

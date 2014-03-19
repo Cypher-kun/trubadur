@@ -64,3 +64,7 @@
             line-height: 0;
             vertical-align: middle;
         }
+
+    .dish-preview__add:active {
+        background: #6db9e7 linear-gradient(#7ec8f0, #699d3);
+    }

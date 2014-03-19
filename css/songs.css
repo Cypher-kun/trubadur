@@ -50,3 +50,6 @@
                 padding: 0;
             }
 
+                 .songs__body__row__cell__add:active {
+                     background: #da2040 linear-gradient(#e51f43, #b52237);
+                 }

@@ -50,3 +50,7 @@
         .footer__item:last-child .footer__item__separator {
             display: none;
         }
+
+        .footer__item:active {
+            background: #3d3c3c linear-gradient(#434242, #2b2a29);
+        }
