@@ -1,5 +1,6 @@
 .table-order {
-
+    font-size: 14px;
+    line-height: 16px;
 }
 
     .table-order__body {
@@ -25,5 +26,9 @@
             }
 
             .table-order__body__row__cell_label {
-                width: 394px;
+                width: 333px;
+            }
+
+            .table-order__body__row__cell_amount {
+                width: 36px;
             }
