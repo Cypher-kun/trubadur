@@ -9,3 +9,7 @@
     .list__item:first-child {
         margin-top: 0;
     }
+
+    .list__item_sparsed {
+        margin-top: 30px;
+    }

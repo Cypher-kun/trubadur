@@ -1,5 +1,8 @@
 .song-ordered {
     position: relative;
+    width: 648px;
+    padding-left: 62px;
+    color: #000;
 }
 
     .song-ordered__body {
@@ -8,23 +11,33 @@
         box-shadow: 0 0 15px 2px rgba(0,0,0,1);
     }
 
+    .song-ordered__body_gray {
+        color: #939598;
+    }
+
     .song-ordered__type {
         width: 30px;
         height: 30px;
-        line-height: 29px;
         border-radius: 15px;
         background: #c5213b linear-gradient(#e31f43, #b52237);
         box-shadow: 0 0 5px 1px rgba(0,0,0,1);
-        text-align: center;
         display: inline-block;
         vertical-align: top;
         position: absolute;
         top: 30px;
-        left: -55px;
+        left: 0;
     }
 
         .song-ordered__type__icon {
-            display: inline-block;
-            vertical-align: middle;
-            line-height: 0;
+            position: absolute;
+            top: 8px;
+            left: 7px;
         }
+
+    .song-ordered__type_yellow {
+        background: #eae900 linear-gradient(#fcff00, #e5e200);
+    }
+
+    .song-ordered__type_gray {
+        background: #86888a linear-gradient(#939598, #808285);
+    }
